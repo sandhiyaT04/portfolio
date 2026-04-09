@@ -180,6 +180,19 @@ body {
   transform: translateY(-10px) scale(1.02);
   box-shadow: 0 15px 35px rgba(77,168,218,0.3);
 }
+.btn {
+  background: #4DA6FF;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0A1F44;
+}
 /* ---------------- CONTACT SECTION ---------------- */
 .contact {
   padding: 80px 0;
