@@ -90,6 +90,7 @@ body {
 .about-text h2 {
   font-size: 32px;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .about-text p {
