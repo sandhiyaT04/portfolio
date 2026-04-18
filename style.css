@@ -140,13 +140,6 @@ body {
 .edu {
     text-align: center;
 }
-.skills h2,
-.Tools h2,
-.edu h2 {
-  text-align: center;
-  grid-column: 1 / -1; /* important */
-  margin-bottom: 20px;
-}
 /* ---------------- PROJECTS SECTION ---------------- */
 .projects {
   padding: 80px 0;
