@@ -148,31 +148,6 @@ body {
   position: relative;
   animation: fadeSlide 1s ease-in-out;
 }
-
-.section-heading::after {
-  content: "";
-  width: 0;
-  height: 3px;
-  background-color: #4DA6FF;
-  display: block;
-  margin: 8px auto 0;
-  transition: width 0.4s ease;
-}
-
-.section-heading:hover::after {
-  width: 50px;
-}
-
-@keyframes fadeSlide {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 /* ---------------- PROJECTS SECTION ---------------- */
 .projects {
   padding: 80px 0;
