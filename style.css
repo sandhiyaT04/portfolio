@@ -277,18 +277,6 @@ body {
     transform: translateY(0);
   }
 }
-/* ===== SCROLL REVEAL ===== */
-.reveal {
-  opacity: 0;
-  transform: translateY(60px);
-  transition: all 0.8s ease;
-}
-
-.reveal.active {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 /* ===== GRADIENT TEXT ===== */
 .hero h1 {
   background: linear-gradient(90deg, #4DA8DA, #ffffff, #4DA8DA);
